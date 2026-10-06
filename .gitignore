@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+/app/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+/local.properties
+/captures/
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# NOTE: keystore/release.jks is intentionally committed (see README).

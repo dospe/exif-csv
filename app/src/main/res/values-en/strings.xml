@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EXIF → CSV</string>
+
+    <string name="permission_title">Photo access</string>
+    <string name="permission_text">The app reads the file name, capture time and GPS coordinates stored in EXIF of the selected photos and writes them to a CSV file. To show the gallery it needs access to your photos and to media location. Nothing is uploaded anywhere.</string>
+    <string name="action_grant_access">Allow photo access</string>
+    <string name="action_pick_files">Pick files manually…</string>
+    <string name="action_pick_files_short">Pick files</string>
+
+    <string name="action_select_all">Select all</string>
+    <string name="action_clear_selection">Clear selection</string>
+    <string name="action_more">More options</string>
+    <string name="action_reload">Reload list</string>
+    <string name="action_select_more_photos">Select more photos…</string>
+    <string name="setting_decimal_comma">Decimal comma (Czech Excel)</string>
+    <string name="selected_count">Selected: %1$d</string>
+    <string name="action_create_csv">Create CSV</string>
+
+    <string name="empty_title">No photos</string>
+    <string name="empty_text">No photos were found in the gallery.</string>
+    <string name="empty_partial_text">Access is limited to selected photos. Select more photos or pick files manually.</string>
+    <string name="banner_partial">Access is limited to selected photos.</string>
+    <string name="banner_no_location">Without the media location permission the GPS columns will stay empty.</string>
+    <string name="action_fix">Fix</string>
+
+    <string name="progress_title">Reading EXIF data…</string>
+    <string name="progress_text">%1$d / %2$d</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="result_title">Result</string>
+    <string name="action_back">Back</string>
+    <string name="action_share">Share</string>
+    <string name="action_save_csv">Save CSV</string>
+    <string name="summary_photos">Photos: %1$d</string>
+    <string name="summary_gps">With GPS coordinates: %1$d</string>
+    <string name="summary_date">With capture time: %1$d</string>
+    <string name="no_gps">no GPS</string>
+    <string name="no_date">no capture time</string>
+
+    <string name="msg_saved">CSV file saved.</string>
+    <string name="msg_save_failed">Saving failed.</string>
+    <string name="msg_cancelled">Processing cancelled.</string>
+    <string name="msg_share_failed">Sharing failed.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EXIF → CSV</string>
+
+    <string name="permission_title">Přístup k fotkám</string>
+    <string name="permission_text">Aplikace přečte z vybraných fotek název souboru, čas pořízení a GPS souřadnice uložené v EXIF a uloží je do CSV souboru. Pro zobrazení galerie potřebuje přístup k fotkám a k poloze v médiích. Nic se nikam neodesílá.</string>
+    <string name="action_grant_access">Povolit přístup k fotkám</string>
+    <string name="action_pick_files">Vybrat soubory ručně…</string>
+    <string name="action_pick_files_short">Vybrat soubory</string>
+
+    <string name="action_select_all">Vybrat vše</string>
+    <string name="action_clear_selection">Zrušit výběr</string>
+    <string name="action_more">Další možnosti</string>
+    <string name="action_reload">Obnovit seznam</string>
+    <string name="action_select_more_photos">Vybrat další fotky…</string>
+    <string name="setting_decimal_comma">Desetinná čárka (český Excel)</string>
+    <string name="selected_count">Vybráno: %1$d</string>
+    <string name="action_create_csv">Vytvořit CSV</string>
+
+    <string name="empty_title">Žádné fotky</string>
+    <string name="empty_text">V galerii nebyly nalezeny žádné fotky.</string>
+    <string name="empty_partial_text">Máte povolen přístup jen k vybraným fotkám. Vyberte další fotky nebo použijte ruční výběr souborů.</string>
+    <string name="banner_partial">Přístup je povolen jen k vybraným fotkám.</string>
+    <string name="banner_no_location">Bez oprávnění k poloze médií zůstanou GPS souřadnice prázdné.</string>
+    <string name="action_fix">Upravit</string>
+
+    <string name="progress_title">Čtu EXIF data…</string>
+    <string name="progress_text">%1$d / %2$d</string>
+    <string name="action_cancel">Zrušit</string>
+
+    <string name="result_title">Výsledek</string>
+    <string name="action_back">Zpět</string>
+    <string name="action_share">Sdílet</string>
+    <string name="action_save_csv">Uložit CSV</string>
+    <string name="summary_photos">Fotek: %1$d</string>
+    <string name="summary_gps">S GPS souřadnicemi: %1$d</string>
+    <string name="summary_date">S časem pořízení: %1$d</string>
+    <string name="no_gps">bez GPS</string>
+    <string name="no_date">bez času pořízení</string>
+
+    <string name="msg_saved">CSV soubor byl uložen.</string>
+    <string name="msg_save_failed">Uložení se nezdařilo.</string>
+    <string name="msg_cancelled">Zpracování bylo zrušeno.</string>
+    <string name="msg_share_failed">Sdílení se nezdařilo.</string>
+</resources>

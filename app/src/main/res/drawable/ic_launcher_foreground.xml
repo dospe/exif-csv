@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Photo frame -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,38 h48 a4,4 0 0 1 4,4 v30 a4,4 0 0 1 -4,4 h-48 a4,4 0 0 1 -4,-4 v-30 a4,4 0 0 1 4,-4 z" />
+    <!-- Mountains inside the photo -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M30,72 l15,-17 l9,11 l8,-8 l16,14 z" />
+    <!-- Sun -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M42,50 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0" />
+    <!-- Location pin overlapping the top of the frame -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M64,20 c-6.6,0 -11,4.9 -11,11 c0,7.6 11,19 11,19 s11,-11.4 11,-19 c0,-6.1 -4.4,-11 -11,-11 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,31 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0" />
+</vector>
