@@ -29,7 +29,7 @@ class ExifDateParserTest {
         assertNull(ExifDateParser.normalize("   "))
         assertNull(ExifDateParser.normalize("0000:00:00 00:00:00"))
         assertNull(ExifDateParser.normalize("    :  :     :  :  "))
-        assertNull(ExifDateParser.normalize("2026:10:06 14:32:10\u0000".dropLast(1).plus("\u0000").let { "\u0000" }))
+        assertNull(ExifDateParser.normalize("\u0000"))
     }
 
     @Test

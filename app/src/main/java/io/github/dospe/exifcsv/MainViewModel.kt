@@ -85,8 +85,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             _state.update { it.copy(loading = true) }
             val photos = runCatching { repository.loadPhotos() }.getOrDefault(emptyList())
             _state.update { s ->
-                val uris = photos.mapTo(HashSet()) { it.uri }
-                s.copy(loading = false, photos = photos, selected = s.selected.filterTo(LinkedHashSet()) { it in uris })
+                val uris: Set<Uri> = photos.mapTo(HashSet<Uri>()) { it.uri }
+                s.copy(loading = false, photos = photos, selected = s.selected.filterTo(LinkedHashSet<Uri>()) { it in uris })
             }
         }
     }
@@ -95,7 +95,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         s.copy(selected = if (uri in s.selected) s.selected - uri else s.selected + uri)
     }
 
-    fun selectAll() = _state.update { s -> s.copy(selected = s.photos.mapTo(LinkedHashSet()) { it.uri }) }
+    fun selectAll() = _state.update { s -> s.copy(selected = s.photos.mapTo(LinkedHashSet<Uri>()) { it.uri }) }
 
     fun clearSelection() = _state.update { it.copy(selected = emptySet()) }
 
