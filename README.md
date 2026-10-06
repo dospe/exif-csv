@@ -65,7 +65,7 @@ Požadavky: JDK 17, Android SDK (compileSdk 37). Potom:
 ```bash
 ./gradlew assembleRelease
 # výstup: app/build/outputs/apk/release/app-release.apk
-./gradlew testReleaseUnitTest   # jednotkové testy
+./gradlew test                  # jednotkové testy
 ```
 
 ### Podpisový klíč
