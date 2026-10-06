@@ -60,7 +60,7 @@ Aplikace nemá přístup k internetu.
 
 ## Sestavení
 
-Požadavky: JDK 17, Android SDK (compileSdk 36). Potom:
+Požadavky: JDK 17, Android SDK (compileSdk 37). Potom:
 
 ```bash
 ./gradlew assembleRelease
